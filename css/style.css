@@ -231,22 +231,59 @@ button.download-mac {
 .flex-containerfooter{
     display: flex;
     flex-direction: row;
-    height: 400px;
-    width: 60%;
-    background-color: aquamarine;
+    height: 500px;
+    width: 80%;
     margin: 15px;
 }
 .internaldiv1{
     width: 40%;
     height: 400px;
-    background-color: rgb(255, 133, 127);
-    border-style: dotted;
 }
-.internaldiv{
+.internaldiv {
     width: calc(60% / 4);
     height: 400px;
-    background-color: rgb(127, 249, 255);
-    border-style: dotted;
+    margin: 20px;
+}
+
+.listabot {
+    flex-direction: column;
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: white;
+}
+
+li{
+    margin-bottom: 20px;
+}
+
+li.listtitle {
+    font-size: 24px;
+    color: #255ee9;
+}
+
+.listabotbig{
+    flex-direction: column;
+    list-style: none;
+    margin-left: 40px;
+    margin-top: 20px;
+    color: white;
+    text-align: left;
+}
+
+li.listtilebig {
+    margin-left: 40px;
+    font-size: 36px;
+    color: #255ee9;
+}
+
+.languageselection{
+    color: white;
+    width: 30%;
+    margin-left: 40px;
+    align-self: left;
+    border: none;
+    background-color: rgb(35, 34, 34); ;
 }
 
 .flex-footer-bot {
@@ -262,15 +299,23 @@ button.download-mac {
     color: rgb(0, 0, 0);
     padding: 10px;
     width: 60%;
-    background-color: rgb(0, 255, 191);
     justify-content: space-between;
-    border-style: dotted;
 }    
 
 .item{
     width: 5%;
-    border-style: dotted;
-    background-color: pink;
+}
+
+#botline{
+    color: #255ee9;
+    width: 60%;
 }
 
 
+.register-button{
+    padding: 10px;
+    border-radius: 34%;
+    background-color: #255ee9;
+    border: none;
+    color: white;
+}
