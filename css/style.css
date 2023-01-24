@@ -36,8 +36,8 @@ ul{
 }
 
 .login-button{
-    padding: 10px;
-    border-radius: 34%;
+    padding: 6px 14px;
+    border-radius: 6px;
     border: 0px white;
     color: rgb(0, 0, 0);
 }
@@ -62,20 +62,21 @@ ul{
 .buttons-header{
     display: flex;
     justify-content: center;
-    padding: 20px;
+    padding: 6px 14px;
+    border-radius: 6px;
 
 }
 button.download-mac {
     font-size: 20px;
-    padding: 10px;
-    border-radius: 35%;
+    padding: 6px 14px;
+    border-radius: 6px;
     border-style: none;
     margin: auto;
 }
 .discord-on-browser{
     font-size: 20px;
-    padding: 10px;
-    border-radius: 35%;
+    padding: 6px 14px;
+    border-radius: 6px;
     border-style: none;
     background-color: black;
     color: white;
@@ -210,8 +211,8 @@ button.download-mac {
 
 .download-macbot {
     font-size: 20px;
-    padding: 10px;
-    border-radius: 35%;
+    padding: 6px 14px;
+    border-radius: 6px;
     border-style: none;
     margin: auto;
     color: white;
@@ -313,9 +314,11 @@ li.listtilebig {
 
 
 .register-button{
-    padding: 10px;
-    border-radius: 34%;
+    padding: 6px 14px;
+    border-radius: 6px;
     background-color: #255ee9;
     border: none;
     color: white;
 }
+
+
