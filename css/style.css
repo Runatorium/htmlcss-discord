@@ -13,24 +13,34 @@
  align-items: center;
 }
 
+ul{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
 .flex-menu{
     display: flex;
-    color: rgb(0, 0, 0);
+    color: rgb(254, 254, 254);
     width: 60%;
-    padding: 10px;
-    background-color: yellow;
     justify-content: space-between;
-    border-style: dotted;
+    align-items: center;
 }    
 
 .item-1{
-    width: 20%;
+    display: flex;
+    align-self: center;
+    width: 100%;
     
 }
-.item-2{
-    width: 20%;
-   
+
+.login-button{
+    padding: 10px;
+    border-radius: 34%;
+    border: 0px white;
+    color: rgb(0, 0, 0);
 }
+
 .flex-header-bot{
     display: flex;
     height: 400px;
@@ -165,3 +175,5 @@ background-color: rgb(47, 0, 255);
     border-style: dotted;
     background-color: pink;
 }
+
+
