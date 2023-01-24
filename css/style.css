@@ -172,12 +172,14 @@ button.download-mac {
 .flex-containerbot{
     display: flex;
     height: 800px;
-    border-style: dotted;
     width: 60%;
     flex-wrap: wrap;
     margin: 25px;
-    background-color: green;
+    justify-content: center;
+    align-items: center;
 }
+
+
 
 .flex-footerbot{
     display: flex;
