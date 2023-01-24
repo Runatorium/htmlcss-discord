@@ -59,11 +59,27 @@ ul{
     background-size: contain;
 
 }
+.buttons-header{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+}
 button.download-mac {
-    font-size: larger;
+    font-size: 20px;
     padding: 10px;
     border-radius: 35%;
     border-style: none;
+    margin: auto;
+}
+.discord-on-browser{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 35%;
+    border-style: none;
+    background-color: black;
+    color: white;
+    margin: auto;
 }
 .container-content{
     color: white;
